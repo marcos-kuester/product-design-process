@@ -13,3 +13,12 @@
 7. Product
    1. MVP
    2. Final Product
+
+## Notes
+
+> ### Development Notes - Programming Languages
+>
+> - JavaScript (frontend)
+> - Dotnet (backend)
+>
+> Last Update: 2024-11-10
