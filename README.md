@@ -14,9 +14,9 @@
    1. MVP
    2. Final Product
 
-## Notes
+## Development Notes
 
-> ### Development Notes - Programming Languages
+> ### Programming Languages
 >
 > - JavaScript (frontend)
 > - Dotnet (backend)
