@@ -1,3 +1,26 @@
-<h1>Demo-001</h1>
+<h1>Calculator</h1>
 
-<p>Game</p>
+<input id='n1' value='55'> <br />
+<input id='n2' value='17'>
+<button id='multiply' onmouseenter="enter(n1, n2)" onmouseleave="leave()">x</button> <br/>
+<input id='result' style="background-color:Tomato;">
+
+<script>
+
+multiply.addEventListener('click', (e) => {
+
+   result.value = n1.value * n2.value;
+
+})
+
+function enter(x, y) {
+   multiply.innerText = `x (click to multiply ${x.value} x ${y.value})`;
+   multiply.style = 'color: red';
+}
+
+function leave() {
+   multiply.innerText = 'x';
+   multiply.style = null;
+}
+
+</script>
