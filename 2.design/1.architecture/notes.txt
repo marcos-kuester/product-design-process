@@ -2,6 +2,7 @@ file_001: Software Design Architecture
 
 =====================================================================
 NODE
+Doc Link: https://github.com/godotengine/godot/blob/master/doc/classes/Node.xml
 
 method get_node
 return type="Node"
