@@ -6,6 +6,7 @@
 
 1. Concept
    1. Idea
+   2. Proof of Concept
 3. Design
    1. Architecture
 5. Prototype
