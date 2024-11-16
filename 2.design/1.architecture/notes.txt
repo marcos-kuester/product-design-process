@@ -1,1 +1,27 @@
 file_001: Software Design Architecture
+
+=====================================================================
+NODE
+
+method get_node
+return type="Node"
+param name="path" type="NodePath"
+
+Example: Assume this method is called from the Character node, inside the following tree:
+
+ ┖╴root
+    ┠╴Character (you are here!)
+    ┃  ┠╴Sword
+    ┃  ┖╴Backpack
+    ┃     ┖╴Dagger
+    ┠╴MyGame
+    ┖╴Swamp
+       ┠╴Alligator
+       ┠╴Mosquito
+       ┖╴Goblin
+
+The following calls will return a valid node:
+GetNode("Sword");
+GetNode("Backpack/Dagger");
+GetNode("../Swamp/Alligator");
+GetNode("/root/MyGame");
