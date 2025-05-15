@@ -10,7 +10,7 @@
 3. Design
    1. Architecture
 5. Prototype
-   1. Demo [Link](./3.prototype/1.demo/demo-001/)
+   1. Demo [Link](https://marcos-kuester.github.io/product-design-process/)
 7. Product
    1. MVP
    2. Final Product
